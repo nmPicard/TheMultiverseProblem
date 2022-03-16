@@ -1,2 +1,37 @@
-body{background-color: black;}
-p{color: white; font-family: 'Prompt';}
+/* 
+Fonts:
+Prompt,
+Ubuntu Mono,
+IBM Plex Mono,
+*/
+:root {
+  --green: #95ff00;
+  --alpha: #00e1ff;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  font-family: 'Ubuntu Mono';
+  color: var(--green) !important;
+  text-align: left;
+  font-size: 14px;
+  text-decoration: overline underline;
+}
+
+/* Classes */
+.com {
+  font-family: 'Ubuntu Mono';
+  color: var(--green) !important;
+  text-align: left;
+  font-size: 14px;
+}
+
+.alpha {
+  font-family: 'IBM Plex Mono';
+  color: var(--alpha) !important;
+  text-align: left;
+  font-size: 14px;
+}
