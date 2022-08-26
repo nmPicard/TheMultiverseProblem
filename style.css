@@ -7,6 +7,7 @@ IBM Plex Mono,
 :root {
   --green: #95ff00;
   --alpha: #00e1ff;
+	--red: #fc0000;
 }
 
 body {
@@ -34,4 +35,20 @@ a {
   color: var(--alpha) !important;
   text-align: left;
   font-size: 14px;
+}
+
+.hack {
+	font-family: 'Ubuntu Mono';
+  color: var(--red) !important;
+  text-align: left;
+  font-size: 14px;
+}
+
+.aHack {
+	font-family: 'Ubuntu Mono';
+  color: var(--red) !important;
+  text-align: left;
+  font-size: 14px;
+	text-decoration: underline;
+	text-decoration-color: var(--red);
 }
