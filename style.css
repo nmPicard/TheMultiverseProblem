@@ -6,8 +6,9 @@ IBM Plex Mono,
 */
 :root {
   --green: #95ff00;
-  --alpha: #00e1ff;
+  --blue: #00e1ff;
 	--red: #fc0000;
+	--orange: #fc6900;
 }
 
 body {
@@ -32,7 +33,7 @@ a {
 
 .alpha {
   font-family: 'IBM Plex Mono';
-  color: var(--alpha) !important;
+  color: var(--blue) !important;
   text-align: left;
   font-size: 14px;
 }
@@ -51,4 +52,23 @@ a {
   font-size: 14px;
 	text-decoration: underline;
 	text-decoration-color: var(--red);
+}
+
+.aHackFile {
+	font-family: 'Ubuntu Mono';
+  color: var(--red)!important;
+  text-align: left;
+  font-size: 14px;
+	text-decoration: underline;
+	text-decoration-color: var(--red);
+	text-decoration-line: underline;
+	text-decoration-style: underline;
+}
+
+
+.antiviral {
+	font-family: 'IBM Plex Mono';
+  color: var(--blue) !important;
+  text-align: left;
+  font-size: 14px;
 }
